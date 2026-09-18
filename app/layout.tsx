@@ -15,11 +15,11 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: 'Desert Luxe — Dubai Luxury Travel & Booking',
+  title: 'RehlatUAE — Dubai Luxury Travel & Booking',
   description:
     'Book luxury flights, five-star hotels, curated packages, desert safaris, and visa services for Dubai. Your gateway to the extraordinary.',
   openGraph: {
-    title: 'Desert Luxe — Dubai Luxury Travel & Booking',
+    title: 'RehlatUAE — Dubai Luxury Travel & Booking',
     description:
       'Book luxury flights, five-star hotels, curated packages, desert safaris, and visa services for Dubai.',
     images: [
