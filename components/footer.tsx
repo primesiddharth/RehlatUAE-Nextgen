@@ -93,15 +93,17 @@ export function Footer() {
           {/* Brand */}
           <div className="col-span-2 lg:col-span-2">
             <Link href="/" className="flex items-center gap-2.5">
-              <div className="flex h-10 w-10 items-center justify-center rounded-xl gold-gradient">
-                <Plane className="h-5 w-5 text-white" />
-              </div>
+              <img
+                src="/logo.jpeg"
+                alt="RehlatUAE"
+                className="h-11 w-11 rounded-xl object-cover"
+              />
               <div className="flex flex-col leading-none">
                 <span className="font-serif text-xl font-bold text-white">
-                  Desert Luxe
+                  RehlatUAE
                 </span>
                 <span className="text-[10px] uppercase tracking-[0.2em] text-white/60">
-                  Dubai Travel
+                  Travel · Explore · Belong
                 </span>
               </div>
             </Link>
@@ -155,7 +157,7 @@ export function Footer() {
         {/* Bottom bar */}
         <div className="mt-12 flex flex-col items-center justify-between gap-4 border-t border-white/10 pt-8 sm:flex-row">
           <p className="text-xs text-white/50">
-            &copy; {new Date().getFullYear()} Desert Luxe. All rights reserved.
+            &copy; {new Date().getFullYear()} RehlatUAE. All rights reserved.
             Crafted with care in Dubai.
           </p>
           {/* Socials */}

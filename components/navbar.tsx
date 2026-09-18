@@ -38,9 +38,11 @@ export function Navbar() {
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 sm:px-6 lg:px-8">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2.5 group">
-          <div className="flex h-10 w-10 items-center justify-center rounded-xl gold-gradient shadow-md transition-transform group-hover:scale-105">
-            <Plane className="h-5 w-5 text-white" />
-          </div>
+          <img
+            src="/logo.jpeg"
+            alt="RehlatUAE"
+            className="h-11 w-11 rounded-xl object-cover shadow-md transition-transform group-hover:scale-105"
+          />
           <div className="flex flex-col leading-none">
             <span
               className={cn(
@@ -48,7 +50,7 @@ export function Navbar() {
                 scrolled ? 'text-primary' : 'text-white'
               )}
             >
-              Desert Luxe
+              RehlatUAE
             </span>
             <span
               className={cn(
@@ -56,7 +58,7 @@ export function Navbar() {
                 scrolled ? 'text-muted-foreground' : 'text-white/70'
               )}
             >
-              Dubai Travel
+              Travel · Explore · Belong
             </span>
           </div>
         </Link>
